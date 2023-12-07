@@ -8,6 +8,7 @@
 body {
   background: #f2f2f2;
   font-family: "Lexend Deca", sans-serif;
+  padding: 0 10px;
 }
 
 .card-container {
@@ -97,7 +98,6 @@ body {
 @media only screen and (min-width: 1444px) {
   .card-container {
     flex-direction: row;
-    padding: 0 10px;
     margin: 0;
   }
   .card-content {
