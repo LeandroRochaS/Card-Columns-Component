@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background: #f2f2f2;
+    font-family: "Lexend Deca", sans-serif;
+
+
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10rem 0px;
+
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 90%;
+    height: 40rem;
+
+    img {
+        margin-bottom: 25px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        margin-bottom: 3.5rem;
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-weight: 700;
+    }
+
+    p {
+        color:hsl(0, 0%, 80%);
+        line-height: 2rem;
+        margin: 0;
+        margin-bottom: 4rem;
+        max-width: 35ch;
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+
+    button {
+        background: #f2f2f2;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 36px;
+        font-size: 1rem;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+        font-weight: 500;
+    }
+}
+
+.text-sedan {
+    color: hsl(31, 77%, 52%);
+
+}
+.text-suv {
+    color: hsl(184, 100%, 22%);
+}
+.text-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.card-sedans {
+    background: hsl(31, 77%, 52%);
+    color: #fff;
+}
+
+.card-suvs {
+    background: hsl(184, 100%, 22%);
+    color: #fff;
+}
+
+.card-luxury {
+    background: hsl(179, 100%, 13%);
+    color: #fff;
+}
+
+
+@media only screen and (min-width: 1444px) {
+    .card-container {
+        flex-direction: row;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .card-content {
+        width: 30%;
+        height: 40rem;
+        padding: 3rem;
+     
+
+    }
+
+    .card-content img {
+        margin-bottom: 3rem;
+    }
+
+    .card-content h1 {
+        font-size: 3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .card-content p {
+        width: 80%;
+        margin-bottom: 10rem;
+        min-height: 128px;
+        font-size: 1.1rem;
+
+    }
+
+    .card-content button {
+        margin-bottom: 2rem;
+        padding: 1rem 3rem;
+    }
+    
+}
