@@ -20,7 +20,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   margin: 10rem 0px;
 }
 
@@ -32,7 +31,6 @@ body {
   padding: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 90%;
-  height: 40rem;
 }
 .card-content img {
   margin-bottom: 25px;
@@ -87,6 +85,7 @@ body {
 .card-sedans {
   background: hsl(31, 77%, 52%);
   color: #fff;
+  border-radius: 12px 12px 0 0;
 }
 
 .card-suvs {
@@ -97,6 +96,7 @@ body {
 .card-luxury {
   background: hsl(179, 100%, 13%);
   color: #fff;
+  border-radius: 0 0 12px 12px;
 }
 
 @media only screen and (min-width: 1444px) {
@@ -125,5 +125,11 @@ body {
   .card-content button {
     margin-bottom: 2rem;
     padding: 1rem 3rem;
+  }
+  .card-sedans {
+    border-radius: 0;
+  }
+  .card-luxury {
+    border-radius: 0;
   }
 }/*# sourceMappingURL=style.css.map */
